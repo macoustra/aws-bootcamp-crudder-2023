@@ -1,0 +1,4 @@
+aws sns subscribe \
+    --topic-arn arn:aws:sns:eu-central-1:123456789123:billing-alarm \
+    --protocol email \
+    --notification-endpoint example@email.com
