@@ -1,4 +1,4 @@
 aws sns subscribe \
     --topic-arn arn:aws:sns:eu-central-1:891377001927:billing-alarm \
     --protocol email \
-    --notification-endpoint andrew_macoustra@outlook.com
+    --notification-endpoint example@email.com
